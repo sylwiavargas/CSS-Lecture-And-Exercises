@@ -15,4 +15,5 @@
 2. Color contrast explanation: <https://a11yproject.com/posts/what-is-color-contrast/>
   * Color contrast checker: <https://colorable.jxnblk.com/d7cdca/252f32>
   * Color contrast generator: <https://learnui.design/tools/accessible-color-generator.html>
-3.
+3. :focus property <https://a11yproject.com/posts/never-remove-css-outlines/>
+4. ***ADVANCED*** :maximum-scale property <https://a11yproject.com/posts/never-use-maximum-scale/>
