@@ -11,9 +11,10 @@
 ### Practice CSS:
 
 ### Accessibility tools:
-1. Deque Pattern Library (instead of bootstrap or materialize): <https://pattern-library.dequelabs.com/>
+1. Font sizes: [em](https://www.w3.org/TR/WCAG20-TECHS/C14.html), [% sizes](https://www.w3.org/TR/WCAG20-TECHS/C12.html), [named sizes] (https://www.w3.org/TR/WCAG20-TECHS/C13.html)
 2. Color contrast explanation: <https://a11yproject.com/posts/what-is-color-contrast/>
   * Color contrast checker: <https://colorable.jxnblk.com/d7cdca/252f32>
   * Color contrast generator: <https://learnui.design/tools/accessible-color-generator.html>
 3. :focus property <https://a11yproject.com/posts/never-remove-css-outlines/>
-4. ***ADVANCED*** :maximum-scale property <https://a11yproject.com/posts/never-use-maximum-scale/>
+4. Deque Pattern Library (instead of bootstrap or materialize): <https://pattern-library.dequelabs.com/>
+5. ***ADVANCED*** :maximum-scale property <https://a11yproject.com/posts/never-use-maximum-scale/>
