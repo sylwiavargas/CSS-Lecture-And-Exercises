@@ -1,10 +1,30 @@
 # css-lecture
 
+## For starters: world without CSS
+Try this (it removes all css in a website):
+
+```js
+  document.querySelectorAll('[style]')
+    .forEach(el => el.removeAttribute('style'));
+  document.querySelectorAll('link[rel="stylesheet"]')
+    .forEach(el => el.parentNode.removeChild(el));
+  document.querySelectorAll('style')
+    .forEach(el => el.parentNode.removeChild(el));
+```
+Press `option + command + j` then paste this code in and press `enter`
+
 ## WARM UP: QUIZ
 1. What is flexbox? What is grid?
 2. grid > flexbox || flaxbox > grid
 3. Selectors for document, element, class, id?
-4. Bootstrap, Semantic UI, Materialize, Deque -> what?
+4. Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not) use it?
+
+## The Box Model
+4 elements of the box model:
+- margin - the area outside the border (it is transparent);
+- border - it goes around the padding and content;
+- padding - the area around the content (it is transparent);
+- content - the content of the box, where text and images appear;
 
 ## Cheat sheets:
 1. Button generator: <https://www.bestcssbuttongenerator.com/#/3>
@@ -13,8 +33,17 @@
 4. Another CSS generator: <https://webcode.tools/css-generator/>
 5. Gradient generator: <http://angrytools.com/gradient/>
 
-## Practice CSS:
-1.
+## Practice:
+1. CSS: <https://flukeout.github.io/>
+2. Flexbox: <https://flexboxfroggy.com/>
+3. Grid: <http://cssgridgarden.com/>
+
+## Read more:
+1. All attributes: <https://tympanus.net/codrops/css_reference/>
+2. All about grid: <https://css-tricks.com/snippets/css/complete-guide-grid/>
+3. All about flexbox: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+4. 20 tricks to make your life easier: <https://www.webdesignerdepot.com/2016/10/20-essential-css-tricks-every-designer-should-know/>
+5. 
 
 ## Accessibility tools:
 1. Font sizes: [em](https://www.w3.org/TR/WCAG20-TECHS/C14.html), [% sizes](https://www.w3.org/TR/WCAG20-TECHS/C12.html), [named sizes](https://www.w3.org/TR/WCAG20-TECHS/C13.html)
@@ -27,4 +56,6 @@
 
 ##DESSERT: ENJOY!
 1. This painting was made entirely with CSS: <http://diana-adrianne.com/purecss-francine/>
-2.
+2. All with CSS: <https://a.singlediv.com/>
+3. Zen Garden: <http://cssgridgarden.com/>
+4. Mind-blowing CSS projects: <https://www.webdesignerdepot.com/2017/09/11-experimental-css-projects-thatll-blow-your-mind/>
