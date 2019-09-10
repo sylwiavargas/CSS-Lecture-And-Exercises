@@ -15,7 +15,7 @@ Press `option + command + j` then paste this code in and press `enter`
 
 ## WARM UP: QUIZ
 1. What is flexbox? What is grid?
-2. grid > flexbox || flaxbox > grid
+2. grid > flexbox || flexbox > grid
 3. Selectors for document, element, class, id?
 4. Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not) use it?
 
