@@ -32,6 +32,7 @@ Press `option + command + j` then paste this code in and press `enter`
 3. CSS generator: <http://angrytools.com/css-generator/>
 4. Another CSS generator: <https://webcode.tools/css-generator/>
 5. Gradient generator: <http://angrytools.com/gradient/>
+6. Grid templates: <https://gridbyexample.com/examples/>
 
 ## Practice:
 1. CSS: <https://flukeout.github.io/>
@@ -47,6 +48,7 @@ Press `option + command + j` then paste this code in and press `enter`
 
 ## Accessibility tools:
 1. Font sizes: [em](https://www.w3.org/TR/WCAG20-TECHS/C14.html), [% sizes](https://www.w3.org/TR/WCAG20-TECHS/C12.html), [named sizes](https://www.w3.org/TR/WCAG20-TECHS/C13.html)
+    * play with them here: <https://www.w3schools.com/cssref/playit.asp?filename=playcss_font-size&preval=smaller>
 2. Color contrast explanation: <https://a11yproject.com/posts/what-is-color-contrast/>
     * Color contrast checker: <https://colorable.jxnblk.com/d7cdca/252f32>
     * Color contrast generator: <https://learnui.design/tools/accessible-color-generator.html>
