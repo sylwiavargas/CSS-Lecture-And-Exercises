@@ -1,0 +1,55 @@
+/* * {
+    background-color: red;
+} */
+
+body{
+    background-color: aqua;
+}
+
+.questioncont{
+    background: aliceblue;
+    width: 50vw; 
+    height: 30vh;
+    border: 2px black solid;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+}
+
+.question{
+    font-family: "Helvetica";
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 3%;
+    margin-bottom: 5%;
+}
+
+.answerscont{
+    margin-bottom: 5%;
+}
+
+.answer{ 
+    display: inline-block;
+    width: 30%; 
+    height: 20%;
+    border: 2px black solid;
+}
+
+.explanation{
+    margin-top: -1500px;
+}
+
+.explanation:focus{
+    margin-top: 0px;
+    display: block;
+    background-color: blueviolet;
+}
+
+#z:hover{
+    background-color: red;
+}
+
+#d:hover{
+    background-color: green;
+}
