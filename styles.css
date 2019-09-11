@@ -43,6 +43,12 @@ a.demo{
     color: purple;
 } */
 
+#funky{
+    border-width: 30px 10px 4px 20px;
+    border-color:  blue green red yellow;
+    border-radius: 15%;
+}
+
 .questioncont{
     width: 50vw; 
     height: auto;
@@ -114,6 +120,15 @@ a.demo{
 .opaque:hover{
     opacity: 0.3;
 }
+
+img{
+    display: block;
+    margin-top:1%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* answers */
 
 #z:hover{
     background-color: #ff0000;

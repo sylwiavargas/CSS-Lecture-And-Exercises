@@ -83,6 +83,21 @@
     </div>
 
     <div class="questioncont">
+        <div class="question"> 
+          You want an element to be in the center. A property you'll change is...
+        </div>
+        <div class="answerscont">
+          <div class="answer" id="z">align!</div>
+          <div class="answer" id="z">padding.</div>
+          <div class="answer" id="d">margins!</div>
+        </div>
+        <div class="explanation" tabindex="0"> 
+          <span class="exp">EXPLANATION:</span> Yeah... That's a common problem. There are a few ways to achieve that. For starters, change margins (left and right) to "auto" and see what happens. If that doesn't help, google and despair. <span class="lol">Here is a comic (vertically centered) that portrays how we all feel about this problem:</span> 
+          <img src="https://img.devrant.com/devrant/rant/r_281950_gHz6m.jpg" alt="Comic strip on how we all feel css vertical centering">
+        </div>
+      </div>
+
+    <div class="questioncont">
       <div class="question"> 
         How to connect CSS to your project?
       </div>
@@ -124,6 +139,34 @@
       </div>
     </div>
 
-    <a href="https://www.google.com" class="demo">SURPRISE! This is only to show you the :focus selector and the power of the transparent padding!</a>
+    <div class="questioncont">
+        <div class="question"> 
+          How do you enhance keyboard navigation experience through CSS?
+        </div>
+        <div class="answerscont">
+          <div class="answer" id="d">:focus;</div>
+          <div class="answer" id="z">:tab;</div>
+          <div class="answer" id="z">keyboard:on;</div>
+        </div>
+        <div class="explanation" tabindex="0"> 
+          <span class="exp">EXPLANATION:</span> Please please please make it easy for people to navigate your page through keyboard. Use the :focus selector and add border that will make it easy to follow. By the way, in order for an element to be focusable, you need to include tabindex="0" in an html tag ("0" means "stadard flow", "-1" meaning "don't focus", and "1" means "focus first").
+        </div>
+      </div>
+
+      <div class="questioncont" id="funky">
+          <div class="question"> 
+            How many values can a border-width property take?
+          </div>
+          <div class="answerscont">
+            <div class="answer" id="d">1</div>
+            <div class="answer" id="d">2</div>
+            <div class="answer" id="d">4</div>
+          </div>
+          <div class="explanation" tabindex="0"> 
+            <span class="exp">EXPLANATION:</span> The border-width property can have from one to four values (going clockwise: for the top border, right border, bottom border, and the left border). Same for the border-color. For instance, the border in this question is "border-color: blue green red yellow;" and "border-width: 30px 10px 4px 20px;". It also has "border-radius:15%;", which is why it's kinda round. If you increase radius to 100%, you'll have a circle.
+          </div>
+        </div>
+
+    <a href="https://www.google.com" class="demo">SURPRISE! This is only to show you the :focus selector in action! Also, let's take a moment to reflect on how powerful the transparent quiet padding is! It may totally destroy your layout if you just forget to change its value.</a>
   </body>
 </html>
