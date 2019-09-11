@@ -14,7 +14,7 @@ Try this (it removes all css in a website):
 Press `option + command + j` then paste this code in and press `enter`
 
 ## WARM UP: QUIZ
-#Open ./quiz.html in your browser.#
+# Open ./quiz.html in your browser.
 
 Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not) use it?
 
