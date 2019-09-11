@@ -14,10 +14,9 @@ Try this (it removes all css in a website):
 Press `option + command + j` then paste this code in and press `enter`
 
 ## WARM UP: QUIZ
-1. What is flexbox? What is grid?
-2. grid > flexbox || flexbox > grid
-3. Selectors for document, element, class, id?
-4. Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not) use it?
+Open ./quiz.html in your browser.
+
+Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not) use it?
 
 ## The Box Model
 4 elements of the box model:
