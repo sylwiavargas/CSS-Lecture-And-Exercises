@@ -55,7 +55,7 @@ Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not
 4. Deque Pattern Library (instead of bootstrap or materialize): <https://pattern-library.dequelabs.com/>
 5. ***ADVANCED*** :maximum-scale property <https://a11yproject.com/posts/never-use-maximum-scale/>
 
-##DESSERT: ENJOY!
+## DESSERT: ENJOY!
 1. This painting was made entirely with CSS: <http://diana-adrianne.com/purecss-francine/>
 2. All with CSS: <https://a.singlediv.com/>
 3. Zen Garden: <http://cssgridgarden.com/>
