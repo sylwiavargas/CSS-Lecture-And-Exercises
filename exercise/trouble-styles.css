@@ -1,0 +1,140 @@
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+*:focus{
+    outline: 3px dashed red;
+    background-color: #0af2ee;
+}
+
+/* * div {
+    background-color: #00ff37;
+} */
+
+body{
+    background-image: linear-gradien(-10deg,rgb(78, 241, 241), purple);
+}
+
+h2{
+    text-align: center;
+    color: #00ff37;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 800%;
+    margin-bottom: 5%;
+}
+
+.questioncont{
+    width: 50vw; 
+    height: auto;
+    display: grid;
+    grid-template-columns: 1% 98% 1%;
+    grid-template-areas:
+    "question question question"
+    ". answers ."
+    "explanation explanation explanation";
+    background: aliceblue;
+    border: 5px black solid;
+    padding: 1%;
+    margin-bottom: 2%;
+}
+
+.question{
+    grid-area: question;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: center;
+    padding: 3%;
+}
+
+.answerscont{
+    grid-area: answers;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+.answer{ 
+    display: inline-block;
+    width: 10vw;
+    height: auto;
+    border: 2px black solid;
+    padding: 1%;
+}
+
+.answer:hover{
+    -webkit-animation: answer-animation 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+    animation: answer-animation 0.1s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+.explanation{
+    grid-area: explanation;
+    font-size: 125%;
+    margin-top: -50000px;
+}
+
+.explanation:focus{
+    margin-top: 0px;
+    padding-right: 300px;
+    width:1000px;
+    margin-bottom: 50%;
+}
+
+.lol, .exp{
+    font-weight: bolder;
+}
+
+.opaque:hover{
+    opacity: 0.3;
+}
+
+/* answers */
+
+#wrong:hover{
+    background-color: #ff0000;
+}
+
+#good{
+    background-color: #00ff37;
+}
+
+/* square */
+.is-it-a-dot{
+    z-index: 1000;
+    position: absolute;
+    margin-left: 60%;
+}
+
+#dot{
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+/* this is for animations */
+@-webkit-keyframes answers-animation {
+    0% {
+      -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: -1px -1px #3e3e3e, -2px -2px #3e3e3e, -3px -3px #3e3e3e, -4px -4px #3e3e3e, -5px -5px #3e3e3e;
+              box-shadow: -1px -1px #3e3e3e, -2px -2px #3e3e3e, -3px -3px #3e3e3e, -4px -4px #3e3e3e, -5px -5px #3e3e3e;
+      -webkit-transform: translateX(8px) translateY(8px);
+              transform: translateX(8px) translateY(8px);
+    }
+  }
+  @keyframes answers-animation {
+    0% {
+      -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+              box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      -webkit-box-shadow: -1px -1px #3e3e3e, -2px -2px #3e3e3e, -3px -3px #3e3e3e, -4px -4px #3e3e3e, -5px -5px #3e3e3e;
+              box-shadow: -1px -1px #3e3e3e, -2px -2px #3e3e3e, -3px -3px #3e3e3e, -4px -4px #3e3e3e, -5px -5px #3e3e3e;
+      -webkit-transform: translateX(8px) translateY(8px);
+              transform: translateX(8px) translateY(8px);
+    }
+  }

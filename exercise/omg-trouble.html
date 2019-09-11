@@ -1,10 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <meta charset="utf-8"> 
+    <title>So you think you know CSS?</title>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "trouble-styles.css" />
   </head>
   <body>
+    <h1>HELLO FRIENDS!</h1>
+    <div class="is-it-a-dot">
+      <div id="dot">
+      </div>
+    </div>
+
+    <div class="questioncont">
+      <div class="question"> 
+        What does CSS stand for?
+      </div>
+      <div class="answerscont">
+        <div class="answer" id="good">Cascading Style Sheets</div>
+        <div class="answer" id="bad">Candian Stylesheet System</div>
+        <div class="answer" id="bad">Computed Stylesheet System</div>
+      </div>
+      <div class="explanation" tabindex="0"> 
+        <span class="exp">EXPLANATION:</span> Aha, Cascading Style Sheets. A cascade is an algorithm that defines how to combine property values originating from different sources. Style sheets are basically a cascade -- child elements inherit from the parent elements (except for e.g. @keyframes). <span class="lol">Good luck debugging!</span>
+      </div>
+    </div>
+
+
+    <div class="questioncont">
+      <div class="question"> 
+        What are the properties of the box model?
+      </div>
+      <div class="answerscont">
+        <div class="answer" id="bad">width, heigth, padding, margin</div>
+        <div class="answer" id="good">margin, border, padding, content</div>
+        <div class="answer" id="bad">width, heigth, weigth, space </div>
+      </div>
+      <div class="explanation" tabindex="0"> 
+        <span class="exp">EXPLANATION:</span> All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout - it is essentially a box that wraps around every HTML element. Such a box consists of: margins, borders, padding, and the actual content. Remember that padding and margins are transparent! So, if you need more space around the element - it's margins; if between the border and the content - it's padding.
+      </div>
+    </div>
+
+    <div class="questioncont">
+      <div class="question"> 
+        What is Flexbox and Grid?
+      </div>
+      <div class="answerscont">
+        <div class="answer" id="bad">CSS framerworks</div>
+        <div class="answer" id="good">Layout models</div>
+        <div class="answer" id="bad">CSS Selectors</div>
+      </div>
+      <div class="explanation" tabindex="0"> 
+        <span class="exp">EXPLANATION:</span> Flexbox and Grid are two different ways to organize your page design so it's not all over the place.Grid layout divides space into columns & rows. Like table layouts, but better! Any given element may take just one field, an entire row or an entire row and a bit of a column. Flexbox layout distributes space along a single column or row. Like float layouts, but better!
+      </div>
+    </div>
+
+    <div class="questioncont">
+      <div class="question"> 
+        What is better: grid > flexbox || flexbox > grid ?
+      </div>
+      <div class="answerscont">
+        <div class="answer" id="good">Grid - 2 dimensions!</div>
+        <div class="answer" id="good">Flex - lets you flex.</div>
+        <div class="answer" id="good">Why choose? Both! </div>
+      </div>
+      <div class="explanation" tabindex="0"> 
+        <span class="exp">EXPLANATION: </span> It all depends on what you want it for! Also, what you feel more intuitive about. Good news is that you can actually use both at the same time! Here is a great read about <a href="https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412" tabindex="-1">Flexbox vs Grid</a>. Please read it. 
+      </div>
+    </div>
+
+    <div class="questioncont">
+      <div class="question"> 
+        What are CSS selectors?
+      </div>
+      <div class="answerscont">
+        <div class="answer" id="good">. # *</div>
+        <div class="answer" id="good">a, li, p</div>
+        <div class="answer" id="good">:hover, :focus</div>
+      </div>
+      <div class="explanation" tabindex="0"> 
+        <span class="exp">EXPLANATION:</span> In CSS, selectors are patterns used to select the element(s) you want to style. Great news: you can chain them to reach a very specific element! You can e.g. choose to target only the div of a specific class, id and that belongs to a given parent element. Please have a look <a href="https://www.w3schools.com/cssref/css_selectors.asp" tabindex="-1">at these selectors</a>.
+      </div>
+    </div>
 
   </body>
 </html>
