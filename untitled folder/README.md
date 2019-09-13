@@ -15,6 +15,7 @@ Press `option + command + j` then paste this code in and press `enter`
 
 ## WARM UP: QUIZ
 #### Open ./quiz.html in your browser.
+Or play here: <https://cssisfun.netlify.com/>
 
 Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not) use it?
 
