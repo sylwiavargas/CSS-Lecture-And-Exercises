@@ -28,10 +28,11 @@ Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not
 ## Cheat sheets:
 1. Button generator: <https://www.bestcssbuttongenerator.com/#/3>
 2. 10 animations generators (including fancy spinners you will love while doing React): <https://www.hongkiat.com/blog/css3-animation-tools/>
-3. CSS generator: <http://angrytools.com/css-generator/>
-4. Another CSS generator: <https://webcode.tools/css-generator/>
-5. Gradient generator: <http://angrytools.com/gradient/>
-6. Grid templates: <https://gridbyexample.com/examples/>
+3. More animations: <https://sarthology.github.io/Animatopy/>
+4. CSS generator: <http://angrytools.com/css-generator/>
+5. Another CSS generator: <https://webcode.tools/css-generator/>
+6. Gradient generator: <http://angrytools.com/gradient/>
+7. Grid templates: <https://gridbyexample.com/examples/>
 
 ## Practice:
 1. CSS: <https://flukeout.github.io/>

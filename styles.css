@@ -26,6 +26,7 @@ h1{
 }
 
 img{
+        /* border-radius: 100%; */
     display: block;
     margin-top:1%;
     margin-left: auto;
@@ -66,7 +67,7 @@ a.demo{
     ". answers ."
     "explanation explanation explanation";
     background: aliceblue;
-    border: 5px black solid;
+    border: 5px black dotted;
     margin-right: auto;
     margin-left: auto;
     padding: 1%;
@@ -94,8 +95,7 @@ a.demo{
 .answer{ 
     display: inline-block;
     text-align: center;
-    width: 10vw;
-    height: auto;
+    width: 10vw; 
     border: 2px black solid;
     padding: 1%;
 }
@@ -160,15 +160,14 @@ a.demo{
 	background: -o-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
 	background: -ms-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
 	background: linear-gradient(top,  #fff 5%,#f1f1f1 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#f1f1f1',GradientType=0 );
 	
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
 	border-radius: 100px;
 	
-	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+	-moz-box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
+	box-shadow: 0 8px 5px rgba(0, 0, 0, 0.6);
 
 	height: 120px;
 	position: relative;
