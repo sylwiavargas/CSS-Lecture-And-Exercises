@@ -14,7 +14,8 @@ Try this (it removes all css in a website):
 Press `option + command + j` then paste this code in and press `enter`
 
 ## WARM UP: QUIZ
-#### Open ./quiz.html in your browser.
+#### Open ./quiz/index.html in your browser.
+Or play here: <https://cssisfun.netlify.com/>
 
 Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not) use it?
 
@@ -44,7 +45,6 @@ Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not
 2. All about grid: <https://css-tricks.com/snippets/css/complete-guide-grid/>
 3. All about flexbox: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
 4. 20 tricks to make your life easier: <https://www.webdesignerdepot.com/2016/10/20-essential-css-tricks-every-designer-should-know/>
-5. 
 
 ## Accessibility tools:
 1. Font sizes: [em](https://www.w3.org/TR/WCAG20-TECHS/C14.html), [% sizes](https://www.w3.org/TR/WCAG20-TECHS/C12.html), [named sizes](https://www.w3.org/TR/WCAG20-TECHS/C13.html)
@@ -58,6 +58,6 @@ Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not
 
 ## DESSERT: ENJOY!
 1. This painting was made entirely with CSS: <http://diana-adrianne.com/purecss-francine/>
-2. All with CSS: <https://a.singlediv.com/>
+2. All made with CSS: <https://a.singlediv.com/>
 3. Zen Garden: <http://cssgridgarden.com/>
 4. Mind-blowing CSS projects: <https://www.webdesignerdepot.com/2017/09/11-experimental-css-projects-thatll-blow-your-mind/>
