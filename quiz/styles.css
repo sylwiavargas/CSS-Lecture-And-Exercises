@@ -67,7 +67,7 @@ a.demo{
     ". answers ."
     "explanation explanation explanation";
     background: aliceblue;
-    border: 5px black dotted;
+    border: 5px black solid;
     margin-right: auto;
     margin-left: auto;
     padding: 1%;
@@ -88,16 +88,21 @@ a.demo{
 
 .answerscont{
     grid-area: answers;
-    margin-bottom: 5%;
-    margin-left: 15%;
+    display: flex;
+    justify-content: center;
 }
 
 .answer{ 
-    display: inline-block;
+    overflow: hidden;
     text-align: center;
-    width: 10vw; 
+    width: 12vw; 
+    min-height: 8vh;
     border: 2px black solid;
     padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.3vw 0.5vw 0.3vw 
 }
 
 .answer:hover{
@@ -117,6 +122,7 @@ a.demo{
     display: block;
     padding: 1%;
     margin-bottom: 2%;
+    margin-top: 2%;
     text-align: left;
 }
 
