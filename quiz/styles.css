@@ -102,7 +102,8 @@ a.demo{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 0.3vw 0.5vw 0.3vw 
+    margin: 0 0.3vw 0.5vw 0.3vw ;
+    font-size: 110%;
 }
 
 .answer:hover{
