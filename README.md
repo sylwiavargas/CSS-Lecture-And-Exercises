@@ -42,9 +42,11 @@ Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not
 
 ## Read more:
 1. All attributes: <https://tympanus.net/codrops/css_reference/>
-2. All about grid: <https://css-tricks.com/snippets/css/complete-guide-grid/>
-3. All about flexbox: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
-4. 20 tricks to make your life easier: <https://www.webdesignerdepot.com/2016/10/20-essential-css-tricks-every-designer-should-know/>
+2. All selectors and how to chain them: <https://www.w3schools.com/cssref/css_selectors.asp>
+3. All about grid: <https://css-tricks.com/snippets/css/complete-guide-grid/>
+4. All about flexbox: <https://css-tricks.com/snippets/css/a-guide-to-flexbox/>
+5. 20 tricks to make your life easier: <https://www.webdesignerdepot.com/2016/10/20-essential-css-tricks-every-designer-should-know/>
+6. Grid vs Flexbox: <https://medium.com/youstart-labs/beginners-guide-to-choose-between-css-grid-and-flexbox-783005dd2412>
 
 ## Accessibility tools:
 1. Font sizes: [em](https://www.w3.org/TR/WCAG20-TECHS/C14.html), [% sizes](https://www.w3.org/TR/WCAG20-TECHS/C12.html), [named sizes](https://www.w3.org/TR/WCAG20-TECHS/C13.html)
