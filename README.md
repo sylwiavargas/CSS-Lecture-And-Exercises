@@ -1,5 +1,7 @@
 # css-lecture
 
+Here's a recording of the lecture that I ran for Flatiron School students on 10/04/2019: [video](https://www.youtube.com/watch?v=p_dDWuKu70c&feature=youtu.be).
+
 ## For starters: world without CSS
 Try this (it removes all css in a website):
 
