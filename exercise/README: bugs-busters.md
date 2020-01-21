@@ -1,5 +1,5 @@
 # HELP. TROUBLE.
-
+ 
 Here's the page you know well already. However, it looks horrible. Here are all the things that are wrong with this page. Locate as many bugs as you can and crush them!
 Pssst. don't pattern-match from the previous page. We changed the classes and logic. Read the bug, look at the page, try to figure out what's wrong. 
 1. It seems the CSS file does not load anymore?! Fix that first.

@@ -70,7 +70,7 @@ a.demo{
     border: 5px black solid;
     margin-right: auto;
     margin-left: auto;
-    padding: 1%;
+    padding: 1%; 
     margin-bottom: 2%;
 }
 
@@ -137,11 +137,11 @@ a.demo{
 
 /* answers */
 
-#z:hover{
+.z:hover{
     background-color: #ff0000;
 }
 
-#d:hover{
+.d:hover{
     background-color: #00ff37;
 }
 
