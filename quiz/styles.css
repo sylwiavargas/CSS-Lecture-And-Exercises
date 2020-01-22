@@ -49,6 +49,7 @@ a.demo{
 
 a.demo:hover{
     color: white;
+    background-color: aquamarine;
 }
 
 #funky{
