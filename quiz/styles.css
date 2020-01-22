@@ -4,7 +4,7 @@
 
 *:focus{
     outline: 3px dashed red;
-    background-color: #0af2ee;
+    background-color: #83f7f5;
 }
 
 body{
@@ -47,9 +47,9 @@ a.demo{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-/* a.demo:hover{
-    color: purple;
-} */
+a.demo:hover{
+    color: white;
+}
 
 #funky{
     border-width: 30px 10px 4px 20px;
@@ -143,6 +143,22 @@ a.demo{
 
 .d:hover{
     background-color: #00ff37;
+}
+
+/* chaining and hovering */
+
+.hide:hover + div{
+        opacity: 0.0;
+}
+
+.hovering, .disappearing{
+        border: 1px black solid;
+        padding: 2px;
+        background-color: #fff;
+}
+
+.hovering:hover ~ .disappearing{
+        opacity: 0;
 }
 
 /* cloud */

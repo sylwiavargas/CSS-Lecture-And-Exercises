@@ -22,12 +22,12 @@
         What does CSS stand for?
       </div>
       <div class="answerscont">
-        <div class="answer" class="d"><span>Cascading Style Sheets</span></div>
-        <div class="answer" class="z"><span>Candian Stylesheet System</span></div>
-        <div class="answer" class="z"><span>Computed Stylesheet System</span></div>
+        <div class="answer d"><span>Cascading Style Sheets</span></div>
+        <div class="answer z"><span>Candian Stylesheet System</span></div>
+        <div class="answer z"><span>Computed Stylesheet System</span></div>
       </div>
       <div class="explanation" tabindex="0"> 
-        <span class="exp">EXPLANATION:</span> Aha, Cascading Style Sheets. A cascade is an algorithm that defines how to combine property values originating from different sources. Style sheets are basically a cascade -- child elements inherit from the parent elements (except for e.g. @keyframes). <span class="lol">Good luck debugging!</span>
+        <span class="exp">EXPLANATION:</span> Aha, Cascading Style Sheets. A cascade is an algorithm that defines how to combine values originating from different sources. Style sheets are basically a cascade -- child elements inherit values from the parent elements (except for e.g. @keyframes). <span class="lol">Good luck debugging!</span>
       </div>
     </div>
 
@@ -37,9 +37,9 @@
         What are the properties of the box model?
       </div>
       <div class="answerscont">
-        <div class="answer" class="z"><span>width, heigth, padding, margin</span></div>
-        <div class="answer" class="d"><span>margin, border, padding, content</span></div>
-        <div class="answer" class="z"><span>width, heigth, weigth, space </span></div>
+        <div class="answer z"><span>width, heigth, padding, margin</span></div>
+        <div class="answer d"><span>margin, border, padding, content</span></div>
+        <div class="answer z"><span>width, heigth, weigth, space </span></div>
       </div>
       <div class="explanation" tabindex="0"> 
         <span class="exp">EXPLANATION:</span> All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout - it is essentially a box that wraps around every HTML element. Such a box consists of: margins, borders, padding, and the actual content. Remember that padding and margins are transparent! So, if you need more space around the element - it's margins; if between the border and the content - it's padding.
@@ -48,26 +48,12 @@
 
     <div class="questioncont">
       <div class="question"> 
-        What display property should I use if I want my p tag to not take the whole width of the container and I want to define its width and height?
-      </div>
-      <div class="answerscont">
-        <div class="answer" class="z"><span>inline</span></div>
-        <div class="answer" class="d"><span>inline-block</span></div>
-        <div class="answer" class="z"><span>block</span></div>
-      </div>
-      <div class="explanation" tabindex="0"> 
-        <span class="exp">EXPLANATION:</span> Each of the html elements comes with default properties, display being one of them. For instance, the p tag, usually takes a whole line and a generous margin because it comes with the block display property. Then, the span tag always stays in line with other items because of the inline display property. However, there's a middle ground: if you want your p tag to stay in line but also have the possibility to change its width and height, go ahead, overwrite the display to be the inline-block! 
-      </div>
-    </div>
-
-    <div class="questioncont">
-      <div class="question"> 
         What is Flexbox and Grid?
       </div>
       <div class="answerscont">
-        <div class="answer" class="z"><span>CSS framerworks</span></div>
-        <div class="answer" class="d"><span>Layout models</span></div>
-        <div class="answer" class="z"><span>CSS Selectors</span></div>
+        <div class="answer z"><span>CSS framerworks</span></div>
+        <div class="answer d"><span>Layout models</span></div>
+        <div class="answer z"><span>CSS Selectors</span></div>
       </div>
       <div class="explanation" tabindex="0"> 
         <span class="exp">EXPLANATION:</span> Flexbox and Grid are two different ways to organize your page design so it's not all over the place.Grid layout divides space into columns & rows. Like table layouts, but better! Any given element may take just one field, an entire row or an entire row and a bit of a column. Flexbox layout distributes space along a single column or row. Like float layouts, but better!
@@ -79,9 +65,9 @@
         What is better: grid > flexbox || flexbox > grid ?
       </div>
       <div class="answerscont">
-        <div class="answer" class="d"><span>Grid - 2 dimensions!</span></div>
-        <div class="answer" class="d"><span>Flex - lets you flex.</span></div>
-        <div class="answer" class="d"><span>Why choose? Both! </span></div>
+        <div class="answer d"><span>Grid - 2 dimensions!</span></div>
+        <div class="answer d"><span>Flex - lets you flex.</span></div>
+        <div class="answer d"><span>Why choose? Both! </span></div>
       </div>
       <div class="explanation" tabindex="0"> 
         <span class="exp">EXPLANATION: </span> It all depends on what you want it for! Also, what you feel more intuitive about. Good news is that you can actually use both at the same time! There's a very helpful read about Flexbox vs Grid in the readme. Please read it. 
@@ -93,9 +79,9 @@
         What are CSS selectors?
       </div>
       <div class="answerscont">
-        <div class="answer" class="d"><span>. # *</span></div>
-        <div class="answer" class="d"><span>a, li, p</span></div>
-        <div class="answer" class="d"><span>:hover, :focus</span></div>
+        <div class="answer d"><span>. # *</span></div>
+        <div class="answer d"><span>a, li, p</span></div>
+        <div class="answer d"><span>:hover, :focus</span></div>
       </div>
       <div class="explanation" tabindex="0"> 
         <span class="exp">EXPLANATION:</span> In CSS, selectors are patterns used to select the element(s) you want to style. Great news: you can chain them to reach a very specific element! You can e.g. choose to target only the div of a specific class, id and that belongs to a given parent element. Please have a look at an article in the readme about these selectors.
@@ -107,9 +93,9 @@
           You want an element to be in the center. A property you'll change is...
         </div>
         <div class="answerscont">
-          <div class="answer" class="z"><span>align!</span></div>
-          <div class="answer" class="z"><span>padding.</span></div>
-          <div class="answer" class="d"><span>margins!</span></div>
+          <div class="answer z"><span>align!</span></div>
+          <div class="answer z"><span>padding.</span></div>
+          <div class="answer d"><span>margins!</span></div>
         </div>
         <div class="explanation" tabindex="0"> 
           <span class="exp">EXPLANATION:</span> Yeah... That's a common problem. There are a few ways to achieve that. For starters, change margins (left and right) to "auto" and see what happens. If that doesn't help, google and despair. <span class="lol">Here is a comic (vertically centered) that portrays how we all feel about this problem:</span> 
@@ -122,12 +108,12 @@
         How to connect CSS to your project?
       </div>
       <div class="answerscont">
-        <div class="answer" class="d"><span>in a tag (like span or div) </span></div>
-        <div class="answer" class="d"><span>in html file after head </span></div>
-        <div class="answer" class="d"><span>in html file through link att</span></div>
+        <div class="answer d"><span>in a tag (like span or div) </span></div>
+        <div class="answer d"><span>in html file after head </span></div>
+        <div class="answer d"><span>in html file through link att</span></div>
       </div>
       <div class="explanation" tabindex="0"> 
-        <span class="exp">EXPLANATION:</span> There are three ways to connect CSS to your project. Inline CSS - or, the style specified in tags - is a good solution for one and only element of a given style. CSS included internally (below head tag in the html file) will only refer to this specific html file and so may be good for small apps. External CSS file (link rel = "stylesheet" type = "text/css" href = "mystyle.css") feels best organized.
+        <span class="exp">EXPLANATION:</span> There are three ways to connect CSS to your project. Inline CSS - or, the style specified in tags - is a good solution for one and only element of a given style. CSS included internally (below head tag in the html file) will only refer to this specific html file and so may be good for small apps. Inline styling (in the tags) will make debugging your app difficult. External CSS file (link rel = "stylesheet" type = "text/css" href = "mystyle.css") feels best organized.
       </div>
     </div>
 
@@ -136,9 +122,9 @@
         What property will you use if you want an element to appear on top of another one?
       </div>
       <div class="answerscont">
-        <div class="answer" class="z"><span>layer:top; </span></div>
-        <div class="answer" class="d"><span>z-index:1;</span></div>
-        <div class="answer" class="z"><span>position:1;</span></div>
+        <div class="answer z"><span>layer:top; </span></div>
+        <div class="answer d"><span>z-index:1;</span></div>
+        <div class="answer z"><span>position:1;</span></div>
       </div>
       <div class="explanation" tabindex="0"> 
         <span class="exp">EXPLANATION:</span> That's it. If you want one element on top of another, look into z-index. If you want the element to be always on top, choose a high integer instead of 1.
@@ -150,12 +136,26 @@
         How do you change element's opacity?
       </div>
       <div class="answerscont">
-        <div class="answer" class="d"><span>opacity: 0.1;</span></div>
-        <div class="answer" class="z"><span>color: opaque;</span></div>
-        <div class="answer" class="z"><span>op-index: 100%;</span></div>
+        <div class="answer d"><span>opacity: 0.1;</span></div>
+        <div class="answer z"><span>color: opaque;</span></div>
+        <div class="answer z"><span>op-index: 100%;</span></div>
       </div>
       <div class="explanation" tabindex="0"> 
-        <span class="exp">EXPLANATION:</span> Remember that "opacity:1.0;" means "not opaque" and anything below that increases element's opacity. If you do not want to apply opacity to child elements, in this example, use RGBA - it sets the opacity for the background color and not the text or other elements within a container. This would be the syntax: "background: rgba(76, 175, 80, 0.3)".
+        <span class="exp">EXPLANATION:</span> Remember that "opacity:1.0;" means "not transparent" and anything below 1.0 increases element's transparency. If you do not want to apply opacity to child elements, in this example, use RGBA - it sets the color and opacity for the background color and not the text or other elements within a container. This would be the syntax for the kinda greenish almost transparent background: "background: rgba(76, 175, 80, 0.3)".
+      </div>
+    </div>
+
+    <div class="questioncont">
+      <div class="question"> 
+        What display property should I use if I want my p tag to not take the whole width of the container?
+      </div>
+      <div class="answerscont">
+        <div class="answer z"><span>inline</span></div>
+        <div class="answer d"><span>inline-block</span></div>
+        <div class="answer z"><span>block</span></div>
+      </div>
+      <div class="explanation" tabindex="0"> 
+        <span class="exp">EXPLANATION:</span> Each of the html elements comes with default properties, display being one of them. For instance, the p tag, usually takes a whole width and a generous margin because it comes with the block display property. Then, the span tag always stays in line with other items because of the inline display property. However, there's a middle ground: if you want your p tag to stay in line but also have the possibility to change its width and height, go ahead, overwrite the display to be the inline-block! 
       </div>
     </div>
 
@@ -164,9 +164,9 @@
           How do you enhance keyboard navigation experience through CSS?
         </div>
         <div class="answerscont">
-          <div class="answer" class="d"><span>:focus;</span></div>
-          <div class="answer" class="z"><span>:tab;</span></div>
-          <div class="answer" class="z"><span>keyboard:on;</span></div>
+          <div class="answer d"><span>:focus;</span></div>
+          <div class="answer z"><span>:tab;</span></div>
+          <div class="answer z"><span>keyboard:on;</span></div>
         </div>
         <div class="explanation" tabindex="0"> 
           <span class="exp">EXPLANATION:</span> Please please please make it easy for people to navigate your page through keyboard. Use the :focus selector and add border that will make it easy to follow. By the way, in order for an element to be focusable, you need to include tabindex="0" in an html tag ("0" means "stadard flow", "-1" meaning "don't focus", and "1" means "focus first").
@@ -178,23 +178,38 @@
             How this helpful cloud moves across the screen?
           </div>
           <div class="answerscont">
-            <div class="answer" class="d"><span>Position!</span></div>
-            <div class="answer" class="z"><span>Scroll!</span></div>
-            <div class="answer" class="z"><span>Move!</span></div>
+            <div class="answer d"><span>Position!</span></div>
+            <div class="answer z"><span>Scroll!</span></div>
+            <div class="answer z"><span>Move!</span></div>
           </div>
           <div class="explanation" tabindex="0"> 
             <span class="exp">EXPLANATION:</span> If you want an element to move (or not move ever), you wanna play with its position.
           </div>
         </div>
+      
+      <div class="questioncont">
+        <div class="question"> 
+          Which selector would make it possible for me to hover over one div element to affect another one's styling, e.g. make its div sibling disappear? 
+        </div>
+        <div class="answerscont">
+          <div class="answer d hide"><span>div.important:hover + div</span></div>
+          <div class="answer z"><span>div:hover div</span></div>
+          <div class="answer z"><span>div.div:hover</span></div>
+        </div>
+        <div class="explanation" tabindex="0"> 
+          <span class="exp">EXPLANATION:</span> What you want to google in such a case are <strong>chained css selectors.</strong> For instance, "div:hover + div" translates into "when I hover over a div element with a class of important, change the styling of its next div sibling". Now, if you would like all the next siblings to be affected, you'd change the + sign into ~. See here:
+          <span class="hovering">Hover here!</span> <span class="disappearing">I'll be gone</span> <span class="disappearing">I'll be gone</span>
+        </div>
+      </div>
 
       <div class="questioncont" id="funky">
           <div class="question"> 
             How many values can a border-width property take?
           </div>
           <div class="answerscont">
-            <div class="answer" class="d"><span>1</span></div>
-            <div class="answer" class="d"><span>2</span></div>
-            <div class="answer" class="d"><span>4</span></div>
+            <div class="answer d"><span>1</span></div>
+            <div class="answer d"><span>2</span></div>
+            <div class="answer d"><span>4</span></div>
           </div>
           <div class="explanation" tabindex="0"> 
             <span class="exp">EXPLANATION:</span> The border-width property can have from one to four values (going clockwise: for the top border, right border, bottom border, and the left border). Same for the border-color. For instance, the border in this question is "border-color: blue green red yellow;" and "border-width: 30px 10px 4px 20px;". It also has "border-radius:15%;", which is why it's kinda round. If you increase radius to 100%, you'll have a circle.
