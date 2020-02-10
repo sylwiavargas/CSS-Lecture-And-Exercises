@@ -28,6 +28,15 @@ Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not
 - padding - the area around the content (it is transparent);
 - content - the content of the box, where text and images appear;
 
+## The Cascade vs Specificity vs Inheritance vs !important
+* **Cascade**: CSS is a cascade (a type of algorithm). At a very low level, it means that that the order of CSS rules matter; meaning, if you define a background color of a div in two places, the color that comes last will be applied;
+* **Specificity**: however, more important than the cascading character of css is the rule of specificity; CSS will take more seriously the requsts that are more specific; here's the hierarchy of specificity (from the most to the least): 
+element selector -> class selector -> id selector -> 
+**note**: inline CSS is more specific than external file, which is why it's easy to overwrite external libraries;
+PS: Specificity is set up with point system -- each declaration is evaluated in points, then compared and the winners take it all! For instance, if you declare styling inline, this declaration gets 1000 points from the get-go (for real), as opposed to 0 when declared in an outside stylesheet;
+* **Specificity**: now, some elements inherit styling from their parents while others don't; for instance, color and font will be inherited by children but width and height will not! You can play with inheritance by using an ``inherit`` attribute!
+* **!important**: now, you can override all rules using the value of ``!important``; however, beware: you will enter the long-term css debugging hell if you invite this value without an absolute desperate necessity;  
+
 ## Cheat sheets:
 1. Button generator: <https://www.bestcssbuttongenerator.com/#/3>
 2. 10 animations generators (including fancy spinners you will love while doing React): <https://www.hongkiat.com/blog/css3-animation-tools/>
