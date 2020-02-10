@@ -33,7 +33,7 @@ img{
     margin-right: auto;
 }
 
-a:hover:not(.demo){
+span:hover:not(.a){
     background-color: yellow;
 }
 
