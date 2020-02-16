@@ -10,8 +10,8 @@
 body{
     /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
     /* background-image: repeating-linear-gradient(purple, teal 10%, blue 20%); */
-    /* background-image: radial-gradient(teal, yellow, purple); */
-    /* background-image: linear-gradient(-10deg, purple, teal); */
+    /* background-image: radial-gradient(teal, yellow, purple);
+    background-image: linear-gradient(-10deg, purple, teal); */
     background-color: purple;
 }
 
@@ -36,6 +36,7 @@ img{
 span:hover:not(.a){
     background-color: yellow;
 }
+
 
 a.demo{
     color: purple;
@@ -174,7 +175,6 @@ a.demo:hover{
     font-weight: 800;
 }
 
-/* the cloud shape was taken from https://codepen.io/Mark_Bowley/pen/xEbuI */
 
 .cloud {
 	background: #fff;
