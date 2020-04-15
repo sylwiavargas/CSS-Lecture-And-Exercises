@@ -6,12 +6,7 @@ Here's a recording of the lecture that I ran for Flatiron School students on 10/
 Try this (it removes all css in a website):
 
 ```js
-  document.querySelectorAll('[style]')
-    .forEach(el => el.removeAttribute('style'));
-  document.querySelectorAll('link[rel="stylesheet"]')
-    .forEach(el => el.parentNode.removeChild(el));
-  document.querySelectorAll('style')
-    .forEach(el => el.parentNode.removeChild(el));
+  document.querySelectorAll('style,link[rel="stylesheet"]').forEach(style => style.remove());
 ```
 Press `option + command + j` then paste this code in and press `enter`
 
