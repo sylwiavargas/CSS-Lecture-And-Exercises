@@ -33,6 +33,7 @@ Also: Bootstrap, Semantic UI, Materialize, Deque -> what is it? why would I (not
 * **Specificity**: however, more important than the cascading character of css is the rule of specificity; CSS will take more seriously the requsts that are more specific; here's the hierarchy of specificity (from the most to the least): 
 element selector -> class selector -> id selector
 **note**: inline CSS is more specific than external file, which is why it's easy to overwrite external libraries;
+
 PS: Specificity is set up with point system -- each declaration is evaluated in points, then compared and the winners take it all! For instance, if you declare styling inline, this declaration gets 1000 points from the get-go (for real), as opposed to 0 when declared in an outside stylesheet;
 * **Inheretance**: now, some elements inherit styling from their parents while others don't; for instance, color and font will be inherited by children but width and height will not! You can play with inheritance by using an ``inherit`` attribute!
 * **!important**: now, you can override all rules using the value of ``!important``; however, beware: you will enter the long-term css debugging hell if you invite this value without an absolute desperate necessity;  
@@ -45,7 +46,7 @@ PS: Specificity is set up with point system -- each declaration is evaluated in 
 5. Another CSS generator: <https://webcode.tools/css-generator/>
 6. Gradient generator: <http://angrytools.com/gradient/>
 7. Grid templates: <https://gridbyexample.com/examples/>
-8. 
+8. Classless CSS themes: <https://www.cssbed.com/kacit/>
 
 ## Practice:
 1. CSS: <https://flukeout.github.io/>
